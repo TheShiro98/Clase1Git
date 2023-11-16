@@ -56,3 +56,28 @@
     *main
     master
 
+
+## Git checkout:
+>Para poder cambiar de rama
+
+        git checkout master
+
+## Git pull origin:
+>Trae todos los cambios de repositorio principal
+
+    git pull origin main
+
+
+
+
+
+
+# Git hub:
+>Para conectar el repositorio y pushear los archivos
+    echo "# Clase1Git" >> README.md   ----> no hace falta
+    git init
+    git add README.md ----> no hace falta
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/TheShiro98/Clase1Git.git
+    git push -u origin main
